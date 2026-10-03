@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textSize="15sp"
+        android:textColor="#666666" />
+
+    <Button
+        android:id="@+id/btnHomework"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="36dp"
+        android:text="作业统计"
+        android:textSize="18sp"
+        android:backgroundTint="#2196F3" />
+
+    <Button
+        android:id="@+id/btnScore"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="成绩录入"
+        android:textSize="18sp"
+        android:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="返回名单管理"
+        style="@style/Widget.MaterialComponents.Button.TextButton" />
+</LinearLayout>

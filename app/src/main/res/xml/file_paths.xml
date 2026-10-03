@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 导出文件写到 cache/shared 目录，通过 FileProvider 分享 -->
+    <cache-path name="shared" path="shared/" />
+</paths>

@@ -1,0 +1,26 @@
+# 构建产物
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# 各模块构建目录
+app/build/
+app/release/
+
+# 签名文件（切勿上传真实密钥！）
+*.jks
+*.keystore
+key.properties
+
+# 系统/编辑器
+*.log
+*.apk
+*.aab
+.kotlin/
