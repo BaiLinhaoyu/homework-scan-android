@@ -1,6 +1,6 @@
 # 学生扫码作业提交与成绩统计（Android 版）
 
-由原 tkinter 桌面版移植为安卓原生应用（Kotlin）。
+由原制作 tkinter 桌面版移植为安卓原生应用（Kotlin）。
 改动：扫码枪键盘输入 → **摄像头扫码**（CameraX + ML Kit）；导出文件 → **安卓系统分享**（可直接转发到钉钉/微信/QQ）。
 
 ## 功能
@@ -29,7 +29,7 @@
 - Excel 读写使用 Apache POI（StAX 实现为 Woodstox）；若构建时报 `Duplicate class` 或 `META-INF` 冲突，在 `app/build.gradle.kts` 的 `packaging.resources.excludes` 中追加报错提示的路径即可
 - 条码识别支持常见一维码（Code128/Code39/EAN 等）与二维码，学生用纸质条码、校园卡条码均可
 - 国内构建如遇依赖下载失败，可在 `settings.gradle.kts` 中配置阿里云镜像仓库
-- 原作者：白林不可燃 × Kimi（Android 版由 Kimi 移植）
+- 原作者：白林不可燃 × Kimi（Android 版由 Kimi 帮助移植）
 
 ## 开源许可
 
